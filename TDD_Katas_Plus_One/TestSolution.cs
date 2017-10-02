@@ -40,5 +40,14 @@ namespace TDD_Katas_Plus_One
 
             AssertPlusOne(expected, initialDigits);
         }
+
+        [Test]
+        public void Test_when_input_9_9_Should_be_1_0_0()
+        {
+            var initialDigits = new[] { 9, 9 };
+            var expected = new[] { 1, 0, 0 };
+
+            AssertPlusOne(expected, initialDigits);
+        }
     }
 }
