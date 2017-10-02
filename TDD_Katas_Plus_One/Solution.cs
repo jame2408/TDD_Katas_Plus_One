@@ -13,7 +13,11 @@
                 }
                 digits[i] = 0;
             }
-            return digits;
+
+            var ints = new int[digits.Length + 1];
+            ints[0] = 1;
+
+            return ints;
         }
     }
 }
