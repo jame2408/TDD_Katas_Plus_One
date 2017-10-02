@@ -31,5 +31,14 @@ namespace TDD_Katas_Plus_One
 
             AssertPlusOne(expected, initialDigits);
         }
+
+        [Test]
+        public void Test_when_input_1_9_Should_be_2_0()
+        {
+            var initialDigits = new[] { 1, 9 };
+            var expected = new[] { 2, 0 };
+
+            AssertPlusOne(expected, initialDigits);
+        }
     }
 }
