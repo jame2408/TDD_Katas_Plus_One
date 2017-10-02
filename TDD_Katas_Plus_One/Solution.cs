@@ -4,7 +4,8 @@
     {
         public int[] PlusOne(int[] digits)
         {
-            return new[] {2};
+            digits[digits.Length - 1] += 1;
+            return digits;
         }
     }
 }
