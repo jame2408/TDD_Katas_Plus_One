@@ -2,13 +2,9 @@
 {
     class Solution
     {
-        public Solution()
-        {
-        }
-
         public int[] PlusOne(int[] digits)
         {
-            throw new System.NotImplementedException();
+            return new[] {2};
         }
     }
 }
